@@ -8,12 +8,18 @@
 				</div>
 
 
-				<div class="strong">
-					<a href="home.php"><h1>Coffeepedia!</h1></a>
-					<form action="login.php">
-					    <input type="submit" value="Sign-In to see more!">
-					</form>
-				</div>
+					    <ul>
+					        <li><a>Menu</a>
+						      <ul>
+							      <li><a href="home.php">Home</a></li>
+								  <li><a href="coffee.php">Kinds of Coffee</a></li>
+								  <li><a href="login.php">Log-in</a></li>
+								  <li><a href="survey.php">Take a survey</a></li>
+								  <li><a href="https://en.wikipedia.org/wiki/Coffee">Go to wifipedia!</a></li>
+							  </ul>
+						    </li>
+					    </ul>
+
 			</div>
 		</header>
 
@@ -105,7 +111,7 @@
 			</section>
 		</div>
 
-
+<?php include('inc/footer.inc');?>
 
 </body>
 </html>
