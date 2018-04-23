@@ -22,7 +22,7 @@
 
 <?php include('inc/html-top.inc');?>
 
-<body>
+<body class = "content">
 
 			<header>
 			<div class="container">
@@ -30,7 +30,6 @@
 					<a href="home.php"><img src="images/icon.png" alt="Coffee Icon"></a>
 				</div>
 				
-
 					    <ul>
 					        <li><a>Menu</a>
 						      <ul>
@@ -48,17 +47,17 @@
 
 		<div class="container"> <!--container to keep the content from the margins-->
 
-		<div class="box">
+		<div class="thanks">
 			
-			<h3>Thank you ! Your info has been written to our database!</h3><br><br>
+			<h2>Thank you ! Your info has been written to our database!</h3><br><br>
 
-			<a href="home.php">Click to return to the homepage.</a>
+			<a href="home.php"><h3>Click to return to the homepage.</h3></a>
 
 		</div>
 
 		</div>
 		
-<?php include ('inc/footer.inc');?>
+<?php include('inc/footer.inc');?>
 
 </body>
 
