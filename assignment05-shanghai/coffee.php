@@ -9,9 +9,9 @@
 
 
 				<div class="strong">
-					<a href="index.php"><h1>Coffeepedia!</h1></a>
-					<form>
-						<input type="button" value="Sign-Up Now!" href='sign-up.php'>
+					<a href="home.php"><h1>Coffeepedia!</h1></a>
+					<form action="login.php">
+					    <input type="submit" value="Sign-In to see more!">
 					</form>
 				</div>
 			</div>
