@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>Coffee</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+<?php include('inc/html-top.inc');?>
 
-</head>
 <body>
 
 <header>
