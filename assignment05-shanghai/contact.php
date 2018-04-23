@@ -44,10 +44,6 @@
 	        <label>Email</label>
 	        <input type="text" class="form-control" name="email"><br>
 
-			<label>Message</label>
-
-	        <textarea rows="5" class="form-control" name="message"></textarea><br><br>
-
 			<div class="form-group">
 		        <button type="submit" class="btn btn-primary" id="sendMessageButton">Send</button>
 		    </div>
