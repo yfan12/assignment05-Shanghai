@@ -7,7 +7,7 @@
 				<a href="home.php"><img src="images/icon.png" alt="Coffee"></a>
 			</div>
 			<div class="strong">
-				<h3><a href="https://en.wikipedia.org/wiki/Coffee" target="_blank"><em>Learn more about Coffee on WikiPedia!</em></a></h3>
+				<h3><a href="login.php" target="_blank"><em>Log-in to see more!</em></a></h3>
 			</div>
 		</div>
 	</header>
@@ -23,8 +23,7 @@
 	<footer class="persistent">
 		<div class="container">
 			<div class="weak">
-				<h3><em>Presentation of cuisine is<br>
-				an aesthetic quality</em></h3>
+				<h3><a href="https://en.wikipedia.org/wiki/Coffee" target="_blank"><em>Learn more about Coffee on WikiPedia!</em></a></h3>
 			</div>
 			<div class="terminal">
 				<h3><a href="coffee.php"><em>Go to Coffeepedia...</em></a></h3>

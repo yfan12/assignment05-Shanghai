@@ -7,12 +7,14 @@ body {
 	font-size: 18px;
 	color: #333333;
 }
+
 .content header {
 	height: 240px;
 	background-image: url(../images/header.jpg);
 	background-repeat:no-repeat ;
 	background-position: center;
 }
+
 .content ul{
 	margin: 0px;
 	padding: 0px;
@@ -122,6 +124,7 @@ a:hover {
 	color: white;
 	border-bottom: 1px solid white;
 }
+
 .title a:hover {
 	color: #f44b42;
 }
