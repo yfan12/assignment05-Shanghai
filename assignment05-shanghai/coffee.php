@@ -9,7 +9,7 @@
 				
 
 					    <ul>
-					        <li><a>Menu</a>
+					        <li><a>Menu <i class="down"></i></a>
 						      <ul>
 							      <li><a href="home.php">Home</a></li>
 								  <li><a href="coffee.php">Kinds of Coffee</a></li>

@@ -20,32 +20,45 @@
 ?>
 
 
-<!DOCTYPE html>
-<?php include('includes/html-top.inc');?>
+<?php include('inc/html-top.inc');?>
 
-<body>
+<body class = "content">
 
-<div class="container"> <!--container to keep the content from the margins-->
+			<header>
+			<div class="container">
+				<div class = "primary">
+					<a href="home.php"><img src="images/icon.png" alt="Coffee Icon"></a>
+				</div>
+				
+					    <ul>
+					        <li><a>Menu <i class="down"></i></a>
+						      <ul>
+							      <li><a href="home.php">Home</a></li>
+								  <li><a href="coffee.php">Kinds of Coffee</a></li>
+								  <li><a href="login.php">Log-in</a></li>
+								  <li><a href="contact.php">Take a survey</a></li>
+								  <li><a href="https://en.wikipedia.org/wiki/Coffee">Go to wifipedia!</a></li>
+							  </ul>
+						    </li>
+					    </ul>
 
-	<header>
-		<h1>Beijing &mdash; Assignment 05</h1>
-		<p class="subtitle">Survey</p>
+			</div>
+		</header>
+
+		<div class="container"> <!--container to keep the content from the margins-->
+
+		<div class="thanks">
+			
+			<h2>Thank you ! Your info has been written to our database!</h3><br><br>
+
+			<a href="home.php"><h3>Click to return to the homepage.</h3></a>
+
+		</div>
+
+		</div>
 		
-	</header>
+<?php include('inc/footer.inc');?>
 
-	<?php include('includes/nav.inc');?>
-
-<div class="box">
-	
-	<h3>Thank you ! Your info has been written to our database!</h3><br><br>
-
-	<a href="home.php">Click to return to the homepage.</a>
-
-</div>
-
-<?php include ('includes/footer.inc');?>
-
-</div>
 </body>
 
 </html>
