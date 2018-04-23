@@ -6,8 +6,6 @@
 				<div class = "primary">
 					<a href="home.php"><img src="images/icon.png" alt="Coffee Icon"></a>
 				</div>
-
-
 					    <ul>
 					        <li><a>Menu</a>
 						      <ul>
