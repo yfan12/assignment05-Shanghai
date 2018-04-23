@@ -1,0 +1,178 @@
+/*	*******************************************
+	BASE
+	********************************************/
+body { 
+	margin: 0; 
+	font-family: 'EB Garamond',sans-serif;
+	font-size: 18px;
+	color: #333333;
+}
+.content header {
+	background-image: url(../images/header.jpg);
+	background-repeat:no-repeat ;
+	background-position: center;
+}
+
+.content footer { 
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	background-color: #ff9999;
+	padding: 10px 0; 
+}
+
+a {
+	text-decoration: none;
+	color:#336ca5;
+	border-bottom: 1px dashed #336ca5;
+}
+
+header a, footer a { 
+	color: white; 
+	border-bottom-color: white;
+}
+
+a:hover {
+	color: #7fb0ff;
+	border-bottom: 1px solid #7fb0ff;
+}
+
+/*	*******************************************
+	MODULES
+	********************************************/
+.right { 
+	float: right;
+	margin-left: 20px;
+}
+
+.photo-frame {
+	padding: 10px;
+	border: 2px solid #999999;
+}
+.photo-frame figcaption {
+	text-align: center;
+	font-style: italic;
+}
+
+.too-wide {
+	columns: 400px;
+	column-gap: 50px;
+	column-rule: 1px dotted #666666;
+}
+.l-fpattern {
+	border-top: 2px dotted #666666;
+}
+
+.thanks{
+	text-align: center;
+}
+/*  Title styles
+	************************************** */
+.title {
+	font-family: 'Niconne', sans-serif;
+	text-align: center;
+	color: white;
+	text-shadow: 0 0 30px black;
+}
+.title h1 {
+	font-size: 72pt;
+	font-weight: normal;
+	margin: 0;
+}
+.title a {
+	text-decoration: none;
+	color: white;
+	border-bottom: 1px solid white;
+}
+.title a:hover {
+	color: #f44b42;
+}
+.subtitle {
+	font-family: 'Gloria Hallelujah', sans-serif;
+	font-size: 24pt;
+}
+
+
+/*	*******************************************
+	LAYOUT
+	*******************************************/
+
+.container {
+	margin: 0 auto;
+	width: 90%;
+	max-width: 1200px;
+}
+
+/*	Fixed positioning of the header/footer
+	************************************** */
+.persistent {
+	position: fixed;
+	left: 0;
+	width: 100%;
+}
+header.persistent { top: 0; }
+footer.persistent { bottom: 0; }
+
+/*	Styling of the Z-pattern page layout 
+	***************************************/
+.z-pattern { 
+	background-image: url(../images/home.jpg);
+	box-shadow: inset 0 0 490px rgba(165,108,33,0.3);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/*	Styling of the four Z-pattern quadrants 
+	***************************************/
+.z-pattern .primary, 
+.z-pattern .strong, 
+.z-pattern .weak, 
+.z-pattern .terminal {
+	max-height: 150px;
+	margin: 35px;
+}
+.content .primary, 
+.content .strong {
+	padding: 20px;
+}
+.content img { max-width: 280px;}
+
+.primary img {
+	max-width: 150px;
+	background: radial-gradient(ellipse closest-side, rgba(255,255,255,1), rgba(255,255,255,0));
+}
+.primary img:hover { background: radial-gradient(ellipse closest-side, rgba(127, 176, 255,1), rgba(127, 176, 255,0));}
+.primary a { border-bottom: none; }
+
+/*	Flex positioning of the four quadrants
+	**************************************/
+
+header .container, footer .container, .l-fpattern { 
+	display: flex;
+	justify-content: space-between;
+}
+.big-message, .primary, .strong { flex: 1 0 33%; }
+.strong { flex-shrink: 1; }
+
+.l-fpattern > *:first-child { margin-right: 25px; }
+.l-fpattern h2 { flex: 0 0 175px; }
+
+.primary, .strong, .weak, .terminal { 
+	align-self: center;
+	color: white;
+	text-shadow: 0 0 10px black;
+}
+.strong, .terminal { text-align: right; }
+.terminal { font-size: 18pt; }
+
+
+/*	Positioning of the centered message
+	***************************************/
+
+.z-pattern main { 
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
