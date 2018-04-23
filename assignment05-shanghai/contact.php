@@ -25,10 +25,12 @@
 
 		<div class= "container">
 
-	       <div class="box">
-	<h2>Want to get in touch? Fill out the survey and get the latest news about coffee</h2>
+	        <div class="box">
+	        	
+			<h2>Want to get in touch? Fill out the survey and get the latest news about coffee</h2>
 
-	    <form method="post" action="submit.php">
+
+	    	<form method="post" action="submit.php">
 			<label>Age</label>
 			<input type="text" class="form-control" name="age"><br>
 
@@ -45,8 +47,9 @@
 	        <input type="text" class="form-control" name="email"><br>
 
 			<div class="form-group">
-		        <button type="submit" class="btn btn-primary" id="sendMessageButton">Send</button>
+		        <button type="submit" class="push_button" id="sendMessageButton">Send</button>
 		    </div>
+
 		</form>
 	</div>
 		</div>
