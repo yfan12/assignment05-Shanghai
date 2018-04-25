@@ -1,5 +1,5 @@
 <?php  
- $connect = mysqli_connect('localhost', 'Friends', 'coffee', 'testing');  
+ $connect = mysqli_connect('localhost', 'urcscon3_shangh5', 'coffee5', 'urcscon3_shanghai5');  
  $output = '';  
  $sql = "SELECT * FROM tbl_sample ORDER BY id DESC";  
  $result = mysqli_query($connect, $sql);  
