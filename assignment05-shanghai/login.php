@@ -87,8 +87,27 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     </style>
 </head>
 <body>
-    
-    <div class="wrapper">
+        <header id = "common-header">
+            <div class="container">
+                <div class = "primary">
+                    <a href="index.php"><img src="images/icon.png" alt="Coffee Icon"></a>
+                </div>
+                        <ul>
+                            <li><a>Menu <i class="down"></i></a>
+                              <ul>
+                                  <li><a href="index.php">Home</a></li>
+                                  <li><a href="coffee.php">Kinds of Coffee</a></li>
+                                  <li><a href="login.php">Log-in</a></li>
+                                  <li><a href="contact.php">Take a survey</a></li>
+                                  <li><a href="https://en.wikipedia.org/wiki/Coffee">Go to wifipedia!</a></li>
+                              </ul>
+                            </li>
+                        </ul>
+
+            </div>
+        </header>
+
+        <div class="wrapper">
         <h2>Login</h2>
         <p>Please fill in your credentials to login.</p>
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
@@ -107,7 +126,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             </div>
             <p>Don't have an account? <a href="register.php">Sign up now</a>.</p>
         </form>
-    </div>    
-    <?php include('inc/footer.inc');?>
+    </div>
+    <div id = 'footer'>    
+        <?php include('inc/footer.inc');?>
+    </div>
 </body>
 </html>

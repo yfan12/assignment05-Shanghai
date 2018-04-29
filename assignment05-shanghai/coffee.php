@@ -1,7 +1,7 @@
 <?php include('inc/html-top.inc');?>
 
 <body class = "content">
-		<header>
+		<header id = "common-header">
 			<div class="container">
 				<div class = "primary">
 					<a href="index.php"><img src="images/icon.png" alt="Coffee Icon"></a>

@@ -8,14 +8,14 @@ body {
 	color: #333333;
 }
 
-.content header {
+#common-header header {
 	height: 240px;
 	background-image: url(../images/header.jpg);
 	background-repeat:no-repeat ;
 	background-position: center;
 }
 
-.content ul{
+#common-header ul{
 	float: right;
 	margin: 0px;
 	padding: 0px;
@@ -24,7 +24,7 @@ body {
 	text-align: center;
 }
 
-.content ul li{
+#common-header ul li{
 	float: right;
 	width: 200px;
 	height: 40px;
@@ -35,25 +35,25 @@ body {
 	font-size: 20px;
 }
 
-.content ul li a{
+#common-header ul li a{
 	text-decoration: none;
 	color: white;
 	display: block;
 	border-bottom: none;
 }
-.content ul li a:hover{
+#common-header ul li a:hover{
 	background-color: green;
 }
 
-.content ul li ul li{
+#common-header ul li ul li{
 	display: none;
 }
 
-.content ul li:hover ul li{
+#common-header ul li:hover ul li{
 	display: block;
 }
 
-.footer { 
+.content footer, #footer { 
 	left: 0;
 	bottom: 0;
 	color: white;

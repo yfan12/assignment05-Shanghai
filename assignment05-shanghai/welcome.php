@@ -18,6 +18,26 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>  
     </head>  
 <body>
+    <header id = "common-header">
+            <div class="container">
+                <div class = "primary">
+                    <a href="index.php"><img src="images/icon.png" alt="Coffee Icon"></a>
+                </div>
+                        <ul>
+                            <li><a>Menu <i class="down"></i></a>
+                              <ul>
+                                  <li><a href="index.php">Home</a></li>
+                                  <li><a href="coffee.php">Kinds of Coffee</a></li>
+                                  <li><a href="login.php">Log-in</a></li>
+                                  <li><a href="contact.php">Take a survey</a></li>
+                                  <li><a href="https://en.wikipedia.org/wiki/Coffee">Go to wifipedia!</a></li>
+                              </ul>
+                            </li>
+                        </ul>
+
+            </div>
+        </header>
+
     <div class="page-header">
         <h1>Hi, <b><?php echo htmlspecialchars($_SESSION['username']); ?></b>. Welcome to our site.</h1>
     </div>
@@ -33,7 +53,9 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
                 <div id="live_data"></div>                 
             </div>  
         </div>
-    <?php include('inc/footer.inc');?>
+    <div id = 'footer'>    
+        <?php include('inc/footer.inc');?>
+    </div>
 </body>
 </html>
 <script>  

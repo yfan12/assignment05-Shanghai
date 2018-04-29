@@ -105,7 +105,28 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         .wrapper{ width: 350px; padding: 20px; }
     </style>
 </head>
+
 <body>
+        <header id = "common-header">
+            <div class="container">
+                <div class = "primary">
+                    <a href="index.php"><img src="images/icon.png" alt="Coffee Icon"></a>
+                </div>
+                        <ul>
+                            <li><a>Menu <i class="down"></i></a>
+                              <ul>
+                                  <li><a href="index.php">Home</a></li>
+                                  <li><a href="coffee.php">Kinds of Coffee</a></li>
+                                  <li><a href="login.php">Log-in</a></li>
+                                  <li><a href="contact.php">Take a survey</a></li>
+                                  <li><a href="https://en.wikipedia.org/wiki/Coffee">Go to wifipedia!</a></li>
+                              </ul>
+                            </li>
+                        </ul>
+
+            </div>
+        </header>
+
     <div class="wrapper">
         <h2>Sign Up</h2>
         <p>Please fill this form to create an account.</p>
@@ -132,6 +153,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             <p>Already have an account? <a href="login.php">Login here</a>.</p>
         </form>
     </div>  
-    <?php include('inc/footer.inc');?>  
+    <div id = 'footer'>    
+        <?php include('inc/footer.inc');?>
+    </div> 
 </body>
 </html>
