@@ -27,13 +27,13 @@
 			<header>
 			<div class="container">
 				<div class = "primary">
-					<a href="home.php"><img src="images/icon.png" alt="Coffee Icon"></a>
+					<a href="index.php"><img src="images/icon.png" alt="Coffee Icon"></a>
 				</div>
 				
 					    <ul>
 					        <li><a>Menu <i class="down"></i></a>
 						      <ul>
-							      <li><a href="home.php">Home</a></li>
+							      <li><a href="index.php">Home</a></li>
 								  <li><a href="coffee.php">Kinds of Coffee</a></li>
 								  <li><a href="login.php">Log-in</a></li>
 								  <li><a href="contact.php">Take a survey</a></li>

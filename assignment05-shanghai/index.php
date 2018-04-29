@@ -4,7 +4,7 @@
 	<header class="persistent">
 		<div class="container">
 			<div class="primary">
-				<a href="home.php"><img src="images/icon.png" alt="Coffee"></a>
+				<a href="index.php"><img src="images/icon.png" alt="Coffee"></a>
 			</div>
 			<div class="strong">
 				<h3><a href="login.php" target="_blank"><em>Log-in to see more!</em></a></h3>
