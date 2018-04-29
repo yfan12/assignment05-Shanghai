@@ -33,7 +33,7 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
                                   <li><a href="coffee.php">Kinds of Coffee</a></li>
                                   <li><a href="login.php">Log-in</a></li>
                                   <li><a href="contact.php">Take a survey</a></li>
-                                  <li><a href="https://en.wikipedia.org/wiki/Coffee">Go to wifipedia!</a></li>
+                                  <li><a href="https://en.wikipedia.org/wiki/Coffee">Go to wikipedia!</a></li>
                               </ul>
                             </li>
                         </ul>

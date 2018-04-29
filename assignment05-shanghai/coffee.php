@@ -15,7 +15,7 @@
 								  <li><a href="coffee.php">Kinds of Coffee</a></li>
 								  <li><a href="login.php">Log-in</a></li>
 								  <li><a href="contact.php">Take a survey</a></li>
-								  <li><a href="https://en.wikipedia.org/wiki/Coffee">Go to wifipedia!</a></li>
+								  <li><a href="https://en.wikipedia.org/wiki/Coffee">Go to wikipedia!</a></li>
 							  </ul>
 						    </li>
 					    </ul>
@@ -46,7 +46,7 @@
 		
 					<p> <strong>Latte</strong> is a coffee drink made with espresso and steamed milk. The term as used in English is a shortened form of the Italian caffè latte , caffelatte or caffellatte, which means "milk coffee". The word is also sometimes spelled latté or lattè in English with different kinds of accent marks, which can be a hyperforeignism or a deliberate attempt to indicate that the word is not pronounced according to the rules of English orthography. In northern Europe and Scandinavia the term café au lait has traditionally been used for the combination of espresso and milk. In France, caffè latte is mostly known from the original Italian name of the drink; a combination of espresso and steamed milk equivalent to a "latte" is in French called grand crème and in German Milchkaffee or (in Austria) Wiener Melange. Variants include replacing the coffee with another drink base such as masala chai (spiced Indian tea), mate, matcha, turmeric, or rooibos and other types of milk, such as soy milk or almond milk are also used.</p>
 
-					<p>Wn Italy, caffè latte is almost always prepared at home, for breakfast only. The coffee is brewed with a stovetop Moka pot and poured into a cup containing heated milk. (Unlike the 'international' latte drink, the milk in the Italian original is generally not foamed, and sugar is added by the drinker, if at all.) Outside Italy, a caffè latte is typically prepared in a 240 mL (8 US fl oz) glass or cup with one standard shot of espresso (either single, 30 mL or 1 US fl oz, or double, 60 mL or 2 US fl oz) and filled with steamed milk, with a layer of foamed milk approximately 12 mm (1⁄2 in) thick on the top. In the US, a latte is often heavily sweetened, with 3% or even more sugar.</p>
+					<p>In Italy, caffè latte is almost always prepared at home, for breakfast only. The coffee is brewed with a stovetop Moka pot and poured into a cup containing heated milk. (Unlike the 'international' latte drink, the milk in the Italian original is generally not foamed, and sugar is added by the drinker, if at all.) Outside Italy, a caffè latte is typically prepared in a 240 mL (8 US fl oz) glass or cup with one standard shot of espresso (either single, 30 mL or 1 US fl oz, or double, 60 mL or 2 US fl oz) and filled with steamed milk, with a layer of foamed milk approximately 12 mm (1⁄2 in) thick on the top. In the US, a latte is often heavily sweetened, with 3% or even more sugar.</p>
 
 				</div>
 
