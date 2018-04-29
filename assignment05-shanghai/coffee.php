@@ -107,11 +107,15 @@
 
 				</div>
 
-
 			</section>
+
+			<div class = "thanks">
+				<a href="contact.php"><h3>Would you take a short survey to help us understand you better?</h3></a>
+			</div>
+			
 		</div>
 
-<?php include('inc/footer.inc');?>
+	<?php include('inc/footer.inc');?>
 
 </body>
 </html>

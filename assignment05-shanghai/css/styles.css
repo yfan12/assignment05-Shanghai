@@ -153,6 +153,11 @@ i {
     -webkit-transform: rotate(45deg);
 }
 
+.centered{ 
+	width: 400px; 
+	margin: 0 auto;
+}
+
 /*  Title styles
 	************************************** */
 .title {
@@ -250,6 +255,7 @@ header .container, footer .container, .l-fpattern {
 	align-self: center;
 	color: white;
 	text-shadow: 0 0 10px black;
+	font-size: 18pt;
 }
 .strong, .terminal { text-align: right; }
 .terminal { font-size: 18pt; }

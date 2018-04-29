@@ -51,7 +51,7 @@
 			
 			<h2>Thank you ! Your info has been written to our database!</h3><br><br>
 
-			<a href="home.php"><h3>Click to return to the homepage.</h3></a>
+			<a href="index.php"><h3>Click to return to the homepage.</h3></a>
 
 		</div>
 

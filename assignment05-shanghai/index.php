@@ -23,10 +23,10 @@
 	<footer class="persistent">
 		<div class="container">
 			<div class="weak">
-				<h3><a href="https://en.wikipedia.org/wiki/Coffee" target="_blank"><em>Visit WikiPedia to find more!</em></a></h3>
+				<h3><a href="contact.php"><em>Fill out our survey to see more!</em></a></h3>
 			</div>
 			<div class="terminal">
-				<h3><a href="coffee.php"><em>Go to Our Coffeepedia...</em></a></h3>
+				<h3><a href="coffee.php"><em>Visit our Coffeepedia first...</em></a></h3>
 			</div>
 		</div>
 	</footer>
