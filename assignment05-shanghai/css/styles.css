@@ -8,14 +8,15 @@ body {
 	color: #333333;
 }
 
-#common-header header {
+.content header{
 	height: 240px;
+	font-family: 'EB Garamond',sans-serif;
 	background-image: url(../images/header.jpg);
 	background-repeat:no-repeat ;
 	background-position: center;
 }
 
-#common-header ul{
+.content ul{
 	float: right;
 	margin: 0px;
 	padding: 0px;
@@ -24,7 +25,7 @@ body {
 	text-align: center;
 }
 
-#common-header ul li{
+.content ul li{
 	float: right;
 	width: 200px;
 	height: 40px;
@@ -34,22 +35,21 @@ body {
 	text-align: center;
 	font-size: 20px;
 }
-
-#common-header ul li a{
+.content ul li a{
 	text-decoration: none;
 	color: white;
 	display: block;
 	border-bottom: none;
 }
-#common-header ul li a:hover{
+.content ul li a:hover{
 	background-color: green;
 }
 
-#common-header ul li ul li{
+.content ul li ul li{
 	display: none;
 }
 
-#common-header ul li:hover ul li{
+.content ul li:hover ul li{
 	display: block;
 }
 
@@ -67,7 +67,7 @@ body {
     height: 100%;
 }
 
- .form-control{
+.form-control{
  	display:block;width:100%;
  	padding:.375rem .75rem;
  	font-size:1rem;

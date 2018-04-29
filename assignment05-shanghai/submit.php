@@ -24,7 +24,7 @@
 
 <body class = "content">
 
-			<header id = "common-header">
+			<header>
 			<div class="container">
 				<div class = "primary">
 					<a href="index.php"><img src="images/icon.png" alt="Coffee Icon"></a>

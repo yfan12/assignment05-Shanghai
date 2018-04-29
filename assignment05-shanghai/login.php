@@ -81,13 +81,16 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <title>Login</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+    <link href='https://fonts.googleapis.com/css?family=Gloria Hallelujah' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Niconne' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=EB Garamond' rel='stylesheet'>
     <style type="text/css">
         body{ font: 14px sans-serif; }
         .wrapper{ width: 350px; padding: 20px; }
     </style>
 </head>
-<body>
-        <header id = "common-header">
+<body class="content">
+        <header>
             <div class="container">
                 <div class = "primary">
                     <a href="index.php"><img src="images/icon.png" alt="Coffee Icon"></a>
