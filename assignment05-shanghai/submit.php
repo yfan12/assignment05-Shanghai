@@ -27,17 +27,17 @@
 			<header>
 			<div class="container">
 				<div class = "primary">
-					<a href="home.php"><img src="images/icon.png" alt="Coffee Icon"></a>
+					<a href="index.php"><img src="images/icon.png" alt="Coffee Icon"></a>
 				</div>
 				
 					    <ul>
 					        <li><a>Menu <i class="down"></i></a>
 						      <ul>
-							      <li><a href="home.php">Home</a></li>
+							      <li><a href="index.php">Home</a></li>
 								  <li><a href="coffee.php">Kinds of Coffee</a></li>
 								  <li><a href="login.php">Log-in</a></li>
 								  <li><a href="contact.php">Take a survey</a></li>
-								  <li><a href="https://en.wikipedia.org/wiki/Coffee">Go to wifipedia!</a></li>
+								  <li><a href="https://en.wikipedia.org/wiki/Coffee">Go to wikipedia!</a></li>
 							  </ul>
 						    </li>
 					    </ul>
@@ -51,7 +51,7 @@
 			
 			<h2>Thank you ! Your info has been written to our database!</h3><br><br>
 
-			<a href="home.php"><h3>Click to return to the homepage.</h3></a>
+			<a href="index.php"><h3>Click to return to the homepage.</h3></a>
 
 		</div>
 

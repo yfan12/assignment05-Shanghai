@@ -8,5 +8,4 @@
 	<link href='https://fonts.googleapis.com/css?family=Gloria Hallelujah' rel='stylesheet'>
 	<link href='https://fonts.googleapis.com/css?family=Niconne' rel='stylesheet'>
 	<link href='https://fonts.googleapis.com/css?family=EB Garamond' rel='stylesheet'>
-
 </head>

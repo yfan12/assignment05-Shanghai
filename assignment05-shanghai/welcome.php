@@ -11,12 +11,36 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
  
 <html>  
     <head>  
-        <title>Webslesson Demo - Live Table Add Edit Delete using Ajax Jquery in PHP Mysql</title>  
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />  
+        <title>Webslesson Demo - Live Table Add Edit Delete using Ajax Jquery in PHP Mysql</title> 
+        <link rel="stylesheet" href="css/styles.css"> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+        <link href='https://fonts.googleapis.com/css?family=Gloria Hallelujah' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Niconne' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=EB Garamond' rel='stylesheet'>  
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>  
     </head>  
-<body>
+<body class="content">  
+    <header>
+            <div class="container">
+                <div class = "primary">
+                    <a href="index.php"><img src="images/icon.png" alt="Coffee Icon"></a>
+                </div>
+                        <ul>
+                            <li><a>Menu <i class="down"></i></a>
+                              <ul>
+                                  <li><a href="index.php">Home</a></li>
+                                  <li><a href="coffee.php">Kinds of Coffee</a></li>
+                                  <li><a href="login.php">Log-in</a></li>
+                                  <li><a href="contact.php">Take a survey</a></li>
+                                  <li><a href="https://en.wikipedia.org/wiki/Coffee">Go to wikipedia!</a></li>
+                              </ul>
+                            </li>
+                        </ul>
+
+            </div>
+        </header>
+
     <div class="page-header">
         <h1>Hi, <b><?php echo htmlspecialchars($_SESSION['username']); ?></b>. Welcome to our site.</h1>
     </div>
@@ -32,7 +56,9 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
                 <div id="live_data"></div>                 
             </div>  
         </div>
-    <?php include('inc/footer.inc');?>
+    <div id = 'footer'>    
+        <?php include('inc/footer.inc');?>
+    </div>
 </body>
 </html>
 <script>  

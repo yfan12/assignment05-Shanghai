@@ -79,34 +79,60 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+    <link href='https://fonts.googleapis.com/css?family=Gloria Hallelujah' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Niconne' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=EB Garamond' rel='stylesheet'>
     <style type="text/css">
         body{ font: 14px sans-serif; }
         .wrapper{ width: 350px; padding: 20px; }
     </style>
 </head>
-<body>
-    
-    <div class="wrapper">
-        <h2>Login</h2>
-        <p>Please fill in your credentials to login.</p>
-        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
-            <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
-                <label>Username</label>
-                <input type="text" name="username"class="form-control" value="<?php echo $username; ?>">
-                <span class="help-block"><?php echo $username_err; ?></span>
-            </div>    
-            <div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
-                <label>Password</label>
-                <input type="password" name="password" class="form-control">
-                <span class="help-block"><?php echo $password_err; ?></span>
+<body class="content">
+        <header>
+            <div class="container">
+                <div class = "primary">
+                    <a href="index.php"><img src="images/icon.png" alt="Coffee Icon"></a>
+                </div>
+                        <ul>
+                            <li><a>Menu <i class="down"></i></a>
+                              <ul>
+                                  <li><a href="index.php">Home</a></li>
+                                  <li><a href="coffee.php">Kinds of Coffee</a></li>
+                                  <li><a href="login.php">Log-in</a></li>
+                                  <li><a href="contact.php">Take a survey</a></li>
+                                  <li><a href="https://en.wikipedia.org/wiki/Coffee">Go to wikipedia!</a></li>
+                              </ul>
+                            </li>
+                        </ul>
+
             </div>
-            <div class="form-group">
-                <input type="submit" class="btn btn-primary" value="Login">
+        </header>
+        <div class = "centered">
+            <div class="wrapper">
+                <h2>Login</h2>
+                <p>Please fill in your credentials to login.</p>
+                <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+                    <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
+                        <label>Username</label>
+                        <input type="text" name="username"class="form-control" value="<?php echo $username; ?>">
+                        <span class="help-block"><?php echo $username_err; ?></span>
+                    </div>    
+                    <div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
+                        <label>Password</label>
+                        <input type="password" name="password" class="form-control">
+                        <span class="help-block"><?php echo $password_err; ?></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-primary" value="Login">
+                    </div>
+                    <p>Don't have an account? <a href="register.php">Sign up now</a>.</p>
+                </form>
             </div>
-            <p>Don't have an account? <a href="register.php">Sign up now</a>.</p>
-        </form>
-    </div>    
-    <?php include('inc/footer.inc');?>
+        </div>
+    <div id = 'footer'>    
+        <?php include('inc/footer.inc');?>
+    </div>
 </body>
 </html>
